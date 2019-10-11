@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
 
     fun register(v:View){
 
-        val intent = Intent(this, RegisterActivity:class.java)
+        val intent = Intent(this, RegisterActivity::class.java)
         startActivity(intent)
 
     }
