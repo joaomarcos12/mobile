@@ -111,6 +111,7 @@
         android:id="@+id/btnSalvar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="salvar"
         android:text="@string/btn_salvar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
